@@ -55,16 +55,16 @@ Build a Mini CRM Platform to:
 
 ## 🧱 Architecture Diagram
 
-```mermaid
+````mermaid
 graph TD
   A[Frontend: React] -->|OAuth Login| B[Google OAuth]
   A --> C[API Server: Node.js]
   C --> D[Database: MongoDB]
   C --> E[Vendor API Simulation]
-  C --> F[AI Service (OpenAI)]
-  C --> G[Redis/Kafka Consumer (optional)]
+  C --> F[AI Service - OpenAI]
+  C --> G[Redis or Kafka Consumer]
   E --> C
-```
+
 
 ## 🧪 Local Setup Instructions
 
@@ -86,7 +86,7 @@ cd server
 npm run dev
 cd ../client
 npm run dev
-```
+````
 
 ## 📊 AI Features Used
 
@@ -121,5 +121,3 @@ npm run dev
 
 **Nehal Behl**
 [LinkedIn](https://www.linkedin.com/in/nehal-behl-515931277/) | [GitHub](https://github.com/Nehalbehl13)
-
-> > > > > > > cf3b6ed (commit)
