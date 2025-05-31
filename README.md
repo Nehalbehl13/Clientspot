@@ -55,6 +55,8 @@ Build a Mini CRM Platform to:
 
 ## 🧱 Architecture Diagram
 
+## 🧱 Architecture Diagram
+
 ````mermaid
 graph TD
   A[Frontend: React] -->|OAuth Login| B[Google OAuth]
