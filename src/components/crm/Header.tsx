@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { User, Settings, Bell } from 'lucide-react';
+import React from "react";
+import { User, Settings, Bell } from "lucide-react";
 
 interface HeaderProps {
   activeTab: string;
@@ -9,11 +8,11 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
   const tabs = [
-    { id: 'dashboard', label: 'Dashboard', icon: '📊' },
-    { id: 'customers', label: 'Customers', icon: '👥' },
-    { id: 'segments', label: 'Segments', icon: '🎯' },
-    { id: 'campaigns', label: 'Campaigns', icon: '📧' },
-    { id: 'analytics', label: 'Analytics', icon: '📈' },
+    { id: "dashboard", label: "Dashboard", icon: "📊" },
+    { id: "customers", label: "Customers", icon: "👥" },
+    { id: "segments", label: "Segments", icon: "🎯" },
+    { id: "campaigns", label: "Campaigns", icon: "📧" },
+    { id: "analytics", label: "Analytics", icon: "📈" },
   ];
 
   return (
@@ -27,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
                 Mini CRM
               </h1>
             </div>
-            
+
             <nav className="flex space-x-1">
               {tabs.map((tab) => (
                 <button
@@ -35,8 +34,8 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
                   onClick={() => setActiveTab(tab.id)}
                   className={`px-4 py-2 rounded-lg transition-all duration-200 flex items-center space-x-2 ${
                     activeTab === tab.id
-                      ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg'
-                      : 'text-gray-600 hover:bg-white/50'
+                      ? "bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg"
+                      : "text-gray-600 hover:bg-white/50"
                   }`}
                 >
                   <span>{tab.icon}</span>
@@ -57,7 +56,9 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
               <div className="w-8 h-8 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full flex items-center justify-center">
                 <User className="w-5 h-5 text-white" />
               </div>
-              <span className="text-sm font-medium text-gray-700">John Doe</span>
+              <span className="text-sm font-medium text-gray-700">
+                Nehal Behl
+              </span>
             </div>
           </div>
         </div>
