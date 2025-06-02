@@ -72,7 +72,7 @@ graph TD
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/xeno-mini-crm.git
+git clone https://github.com/Nehalbehl13/Mini-CRM-Platform
 cd xeno-mini-crm
 
 # 2. Install dependencies
@@ -106,7 +106,7 @@ npm run dev
 
 ## 📽 Demo
 
-🎥 [Link to Demo Video](https://link-to-demo-video.com)
+🎥 [Link to Demo Video] (https://mini-crm-gamma-liard.vercel.app/)
 
 ## 🌐 Live Deployment
 
